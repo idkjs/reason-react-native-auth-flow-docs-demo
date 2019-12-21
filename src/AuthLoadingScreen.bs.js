@@ -12,7 +12,7 @@ function AuthLoadingScreen(Props) {
           return (function (param) {
                     return /* () */0;
                   });
-        }), []);
+        }), /* array */[]);
   return React.createElement(ReactNative.View, {
               style: GlobalStyle.styles.container,
               children: null

@@ -34,7 +34,7 @@ function LoadingScreen(Props) {
             console.log("Navigate to center in: " + (String(count) + ""));
           }
           return ;
-        }), [count]);
+        }), /* array */[count]);
   return React.createElement(React.Fragment, undefined, React.createElement(ReactNative.View, {
                   style: {
                     alignItems: "center",
