@@ -1,0 +1,1 @@
+let default = AppNavigator.make;
