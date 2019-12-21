@@ -46,3 +46,4 @@ let make = () => {
   let screenProps = {"someProp": 42};
   <AuthFlowAppContainer screenProps />;
 };
+let default = make;

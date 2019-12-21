@@ -6,12 +6,16 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "build": "bsb -make-world -clean-world",
+    "watch": "BS_WATCH_CLEAR=true bsb -make-world -w",
+    "clean": "bsb -clean-world"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@baransu/graphql_ppx_re": "0.4.6",
     "@expo/samples": "~36.0.0",
     "@expo/vector-icons": "~10.0.0",
     "@react-navigation/web": "~1.0.0-alpha.9",
@@ -31,8 +35,9 @@
     "react-navigation-stack": "~1.10.3",
     "react-navigation-tabs": "~2.6.2",
     "reason-expo": "34.4.0",
+    "reason-react": "0.7.0",
     "reason-react-native": "0.61.0",
-    "reason-react-navigation": "3.11.0-alpha.0"
+    "reason-react-navigation": "https://github.com/reason-react-native/reason-react-navigation.git"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
