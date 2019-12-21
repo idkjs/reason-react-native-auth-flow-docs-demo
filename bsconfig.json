@@ -19,7 +19,9 @@
     "reason-react",
     "reason-react-native",
     "reason-react-navigation",
-    "reason-expo"
+    "reason-expo",
+    "bs-promise-monad",
+    "bs-webapi"
   ],
   "ppx-flags": [
     "@baransu/graphql_ppx_re/ppx6"

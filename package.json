@@ -23,6 +23,8 @@
     "@react-navigation/web": "~1.0.0-alpha.9",
     "aws-amplify": "2.2.1",
     "aws-amplify-react-native": "2.2.3",
+    "bs-promise-monad": "0.4.0",
+    "bs-webapi": "0.15.6",
     "expo": "~36.0.0",
     "expo-asset": "~8.0.0",
     "expo-constants": "~8.0.0",

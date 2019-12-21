@@ -2427,6 +2427,16 @@ bs-platform@7.0.1:
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.0.1.tgz#1d7b0ef6088b998dceee5db74a7cd8f01c20a3bd"
   integrity sha512-UjStdtHhbtC/l6vKJ1XRDqrPk7rFf5PLYHtRX3akDXEYVnTbN36z0g4DEr5mU8S0N945e33HYts9x+i7hKKpZQ==
 
+bs-promise-monad@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/bs-promise-monad/-/bs-promise-monad-0.4.0.tgz#070ef6970edcf07c4f20b9e6414a036d51846da3"
+  integrity sha512-A47zq0jZnQ6P/KPr0nPjQw/iff7DG4OL7FwQCBxNPQjg+OmRiVi5LEMXNaqswK5lrHkGDWpobX1NmaVu+JC1Ug==
+
+bs-webapi@0.15.6:
+  version "0.15.6"
+  resolved "https://registry.yarnpkg.com/bs-webapi/-/bs-webapi-0.15.6.tgz#967a074854c76ba0097653a1745fd981eaf62f7b"
+  integrity sha512-J+6+fBhkZ8DC8Xrq5Zv7w5pufEv/23TSsHSPMMoOJ1tejEbmXvk8qkwUi0JqPhWmA86XyGMO7Z2XbNNUtd/CPw==
+
 bser@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/bser/-/bser-2.1.1.tgz#e6787da20ece9d07998533cfd9de6f5c38f4bc05"
