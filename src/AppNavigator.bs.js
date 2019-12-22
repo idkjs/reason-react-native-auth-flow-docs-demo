@@ -11,7 +11,7 @@ function AppNavigator$SignInScreen(Props) {
   var navigation = Props.navigation;
   var _signInAsync = function (param) {
     return ReactNative.AsyncStorage.setItem("userToken", "abc").then((function (_result) {
-                  return Promise.resolve(Promise.resolve((navigation.navigate("App"), /* () */0)));
+                  return Promise.resolve((navigation.navigate("App"), /* () */0));
                 }));
   };
   return React.createElement(ReactNative.View, {

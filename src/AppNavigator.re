@@ -6,14 +6,10 @@ module SignInScreen = {
   let make = (~navigation: Navigation.t) => {
     let _signInAsync = () => {
       Js.Promise.
-        /* begin call to AsyncStorage */
         (
           AsyncStorage.setItem("userToken", "abc")
           |> then_(_result =>
-               {
-                 resolve(navigation->Navigation.navigate("App"));
-               }
-               |> resolve
+               resolve(navigation->Navigation.navigate("App"))
              )
         );
     };
@@ -84,12 +80,10 @@ module AuthLoadingScreen = {
            };
          });
     };
-  React.useEffect(
-    () => {
+    React.useEffect(() => {
       _bootstrapAsync() |> ignore;
       None;
-    }
-  );
+    });
     <View style=styles##container>
       <ActivityIndicator />
       <StatusBar barStyle=`default />
