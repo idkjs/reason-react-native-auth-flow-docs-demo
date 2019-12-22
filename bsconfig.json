@@ -25,5 +25,22 @@
   ],
   "ppx-flags": [
     "@baransu/graphql_ppx_re/ppx6"
-  ]
+  ],
+   "gentypeconfig": {
+    "language": "typescript",
+    "module": "es6",
+    "importPath": "relative",
+    "exportInterfaces": true,
+    "debug": {
+      "all": false,
+      "basic": false
+    },
+    "shims": {
+      "Js": "Js",
+      "React": "ReactShim",
+      "ReactEvent": "ReactEvent",
+      "ReasonPervasives": "ReasonPervasives",
+      "ReasonReact": "ReactShim"
+    }
+  }
 }

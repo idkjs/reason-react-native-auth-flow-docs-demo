@@ -7,8 +7,14 @@ function configure(config) {
   return /* () */0;
 }
 
+var Authenticator = { };
+
+var SignIn = { };
+
 export {
   configure ,
+  Authenticator ,
+  SignIn ,
   
 }
 /* @aws-amplify/core Not a pure module */

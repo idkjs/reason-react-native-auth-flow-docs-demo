@@ -1,11 +1,7 @@
 open ReactNative;
 Amplify.configure(AwsExports.config);
 API.configure(AwsExports.config);
-module Authenticator = {
-  open WithAuthenticator;
-let makeProps = AppNavigator.makeProps;
-  let make = withAuthenticator(AppNavigator.make, ~theme=AmplifyTheme.theme, ());
-};
+
 open Expo;
 
 let styles =
@@ -20,9 +16,6 @@ YellowBox.ignoreWarnings([|
   "Remote debugger",
   "UIManager['getConstants']",
 |]);
-
-Amplify.configure(AwsExports.config);
-API.configure(AwsExports.config);
 
 let loadResourcesAsync = () => {
   Font.loadAsync([
@@ -56,7 +49,7 @@ let app = () => {
       />
     : <View style=styles##container>
         <StatusBar barStyle=`darkContent />
-        <Authenticator />
+        <Authenticated> <AppNavigator /> </Authenticated>
       </View>;
 };
 

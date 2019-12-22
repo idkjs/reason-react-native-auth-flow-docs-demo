@@ -3,10 +3,12 @@
 import * as Utils from "./utils/Utils.bs.js";
 import * as React from "react";
 import * as GlobalStyle from "./GlobalStyle.bs.js";
+import * as UserContext from "./user/UserContext.bs.js";
 import * as ReactNative from "react-native";
 
 function AuthLoadingScreen(Props) {
   var navigation = Props.navigation;
+  UserContext.useUser(/* () */0);
   React.useEffect((function () {
           Utils.checkAuthWithRoute(navigation);
           return (function (param) {

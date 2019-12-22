@@ -4,6 +4,7 @@ open GlobalStyle;
 
 [@react.component]
 let make = (~navigation: Navigation.t) => {
+  let (user, dispatchUserAction) = UserContext.useUser();
   React.useEffect1(
     () => {
       Utils.checkAuthWithRoute(~navigation) |> ignore;

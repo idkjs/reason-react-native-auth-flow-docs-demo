@@ -3,6 +3,7 @@
 import * as Utils from "./utils/Utils.bs.js";
 import * as React from "react";
 import * as GlobalStyle from "./GlobalStyle.bs.js";
+import * as AwsAmplify from "aws-amplify";
 import * as ReactNative from "react-native";
 
 function HomeScreen(Props) {
@@ -18,6 +19,7 @@ function HomeScreen(Props) {
                   title: "Show me more of the app"
                 }), React.createElement(ReactNative.Button, {
                   onPress: (function (param) {
+                      AwsAmplify.Auth.signOut();
                       return Utils.signOutAsync(navigation);
                     }),
                   title: "Actually, sign me out :)"
