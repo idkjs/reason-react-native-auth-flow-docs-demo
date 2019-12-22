@@ -2,7 +2,7 @@
 
 ## I Just Want To See it
 
-Click the green `Use this template` button and have at it.
+Click this green button and have at it.
 
 [![use-this-template-button-image](./usethistemplate.png)](https://github.com/idkjs/reason-react-native-auth-flow-docs-demo/generate)
 
