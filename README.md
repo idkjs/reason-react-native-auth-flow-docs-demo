@@ -2,10 +2,16 @@
 
 ## Building
 
-`expo init AuthFlow`
-`yarn add reason-react`
-`yarn add -D bs-platform`
-`touch bsconfig.json` then add this [`./bsconfig.json`](./bsconfig.json).
+1. `expo init AuthFlow`
+2. `yarn add reason-react`
+3. `yarn add -D bs-platform`
+4. `touch bsconfig.json` then add this [`./bsconfig.json`](./bsconfig.json).
+
+## Running
+
+In one terminal, run: `yarn watch`.
+
+In another terminal, run: `yarn start`.
 
 ## Question
 
