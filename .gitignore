@@ -15,3 +15,4 @@ web-report/
 .bsb.lock
 .merlin
 lib/bs
+src/aws-exports.js

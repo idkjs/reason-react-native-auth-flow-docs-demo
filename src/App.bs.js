@@ -2,11 +2,10 @@
 
 import * as AppNavigator from "./AppNavigator.bs.js";
 
-var $$default = AppNavigator.make;
+var app = AppNavigator.make;
 
 export {
-  $$default ,
-  $$default as default,
+  app ,
   
 }
 /* AppNavigator Not a pure module */

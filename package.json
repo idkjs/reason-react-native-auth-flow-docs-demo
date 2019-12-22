@@ -15,7 +15,6 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@baransu/graphql_ppx_re": "0.4.6",
     "@expo/samples": "~36.0.0",
     "@expo/vector-icons": "~10.0.0",
     "@react-navigation/web": "~1.0.0-alpha.9",
@@ -42,7 +41,7 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "babel-preset-expo": "~8.0.0",
-    "bs-platform": "7.0.2-dev.1",
+    "bs-platform": "7.0.1",
     "jest-expo": "~36.0.1"
   },
   "private": true

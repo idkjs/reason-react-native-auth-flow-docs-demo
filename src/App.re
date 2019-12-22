@@ -1,1 +1,2 @@
-let default = AppNavigator.make;
+let app = AppNavigator.make;
+
