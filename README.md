@@ -4,8 +4,7 @@
 
 Click the green `Use this template` button and have at it.
 
-![use-this-template-button-image](./usethistemplate.png)
-
+[![use-this-template-button-image](./usethistemplate.png)](https://github.com/idkjs/reason-react-native-auth-flow-docs-demo/generate)
 
 ## Building
 
