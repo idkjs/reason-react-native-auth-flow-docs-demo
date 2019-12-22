@@ -1,5 +1,11 @@
 # Reason React Native AuthFlow from ReactNavigitation Docs found at  <https://reactnavigation.org/docs/en/auth-flow.html>
 
+## I Just Want To See it
+
+Click the green `Use this template` button and have at it.
+![use-this-template-button-image](./usethistemplate.png)
+
+
 ## Building
 
 1. `expo init AuthFlow`
